@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500"
+     role="img" aria-labelledby="title desc">
+  <title id="title">uzbek ste — an omp extension</title>
+  <desc id="desc">Left: the title uzbek ste, plain uzbek replies, and the ask tool marked as blocked. Right: a phone-style chat. The agent reply ends with a Keyingi qadam block: one question and a numbered table with option 1 recommended. The user answers with the single digit 1. Illustrated example.</desc>
+
+  <rect width="1200" height="500" rx="24" fill="#0B1117"/>
+  <rect x="0.5" y="0.5" width="1199" height="499" rx="24" fill="none" stroke="#1B2530"/>
+
+  <g id="title-block">
+    <text x="72" y="84" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+          font-size="20" letter-spacing="4" fill="#22B8CF">OMP EXTENSION</text>
+    <text x="68" y="162" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,sans-serif"
+          font-size="64" font-weight="800" letter-spacing="-2" fill="#F5F7FA">uzbek ste</text>
+    <rect x="72" y="186" width="60" height="6" rx="3" fill="#22B8CF"/>
+    <rect x="138" y="186" width="60" height="6" rx="3" fill="#F5F7FA"/>
+    <rect x="204" y="186" width="60" height="6" rx="3" fill="#4ADE80"/>
+    <text x="72" y="244" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+          font-size="22" fill="#8B98A5">plain uzbek replies.</text>
+    <text x="72" y="276" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+          font-size="22" fill="#8B98A5">every choice ends in a table.</text>
+    <text x="72" y="308" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+          font-size="22" fill="#8B98A5">you answer with one digit.</text>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="20">
+      <rect x="72" y="360" width="400" height="56" rx="12" fill="#111A22" stroke="#1F2B36"/>
+      <text x="96" y="395" fill="#8B98A5">ask</text>
+      <path d="M92 389 H 136" stroke="#F87171" stroke-width="2"/>
+      <text x="152" y="395" fill="#F87171">blocked</text>
+      <text x="252" y="395" fill="#22B8CF">→ markdown</text>
+    </g>
+  </g>
+
+  <g id="chat" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,sans-serif">
+    <rect x="560" y="40" width="576" height="420" rx="28" fill="#0F171F" stroke="#1F2B36"/>
+
+    <rect x="584" y="64" width="456" height="310" rx="18" fill="#17222D"/>
+    <text x="608" y="102" font-size="24" font-weight="700" fill="#F5F7FA">Keyingi qadam</text>
+    <text x="608" y="138" font-size="20" fill="#C9D3DC"><tspan font-weight="700">Savol:</tspan> push qilaymi?</text>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18">
+      <text x="608" y="180" fill="#5B6B7A">#</text>
+      <text x="644" y="180" fill="#5B6B7A">Variant</text>
+      <text x="936" y="180" fill="#5B6B7A">Xavf</text>
+      <path d="M608 192 H 1016" stroke="#2A3845"/>
+
+      <rect x="600" y="202" width="424" height="40" rx="8" fill="#0E3A44"/>
+      <text x="608" y="228" font-weight="700" fill="#22B8CF">1</text>
+      <text x="644" y="228" font-weight="700" fill="#F5F7FA">PR ochish (tavsiya)</text>
+      <text x="936" y="228" fill="#4ADE80">past</text>
+
+      <text x="608" y="276" fill="#C9D3DC">2</text>
+      <text x="644" y="276" fill="#C9D3DC">local commit</text>
+      <text x="936" y="276" fill="#4ADE80">yo'q</text>
+
+      <text x="608" y="316" fill="#C9D3DC">3</text>
+      <text x="644" y="316" fill="#C9D3DC">to'g'ri main'ga</text>
+      <text x="936" y="316" fill="#FACC15">o'rta</text>
+    </g>
+    <text x="608" y="358" font-size="18" fill="#8B98A5"><tspan font-weight="700">Javob:</tspan> raqam yozing</text>
+
+    <rect x="1048" y="384" width="64" height="52" rx="18" fill="#2B7FD9"/>
+    <text x="1080" y="419" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  </g>
+</svg>
